@@ -9,6 +9,7 @@
 
 #home h1 {
     font-size: 60px;
+    margin-bottom: 100px;
 }
 
 #home a.recipe {
@@ -16,11 +17,26 @@
     margin: 50px 20px;
     padding: 20px;
     width: 300px;
-    background-color: olivedrab;
-    border: 5px solid darkolivegreen;
+    border-width: 5px;
+    border-style: solid;
     text-align: center;
     color: white;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
+}
+
+a.recipe.spanish-omelette{
+    background-color: goldenrod;
+    border-color: darkgoldenrod
+}
+
+a.recipe.fried-green-beans {
+    background-color: olivedrab;
+    border-color: darkolivegreen;
+}
+
+a.recipe.tomato-salad {
+    background-color: firebrick;
+    border-color: darkred;
 }
