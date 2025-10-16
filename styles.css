@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: antiquewhite;
 }
 
 #home {
@@ -26,6 +27,18 @@
     text-decoration: none;
 }
 
+a#home-button {
+    display: inline-block;
+    background-color: burlywood;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 a.recipe.spanish-omelette{
     background-color: goldenrod;
     border-color: darkgoldenrod
@@ -39,4 +52,22 @@ a.recipe.fried-green-beans {
 a.recipe.tomato-salad {
     background-color: firebrick;
     border-color: darkred;
+}
+
+.recipe-page {
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(46, 46, 46);
+}
+
+.recipe-page img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.recipe-page h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
