@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.home {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.home h1 {
+    font-size: 60px;
+}
+
+.home a.recipe {
+    display: block;
+    margin: 50px 20px;
+    padding: 20px;
+    width: 300px;
+    background-color: olivedrab;
+    border: 5px solid darkolivegreen;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
