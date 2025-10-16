@@ -2,16 +2,16 @@
     box-sizing: border-box;
 }
 
-.home {
+#home {
     width: 500px;
     margin: 0 auto;
 }
 
-.home h1 {
+#home h1 {
     font-size: 60px;
 }
 
-.home a.recipe {
+#home a.recipe {
     display: block;
     margin: 50px 20px;
     padding: 20px;
